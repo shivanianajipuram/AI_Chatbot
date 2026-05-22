@@ -35,26 +35,32 @@ AI_ChatBot_RAG/
 
 ## 🚀 Local Setup Steps
 
-1. Clone the repository  
-git clone https://github.com/your-username/AI_ChatBot_RAG.git  
+1. Clone the repository
+```bash
+git clone https://github.com/shivanianajipuram/AI_Chatbot.git  
 cd AI_ChatBot_RAG  
-
-2. Install dependencies  
+```
+3. Install dependencies
+```bash
 pip install -r requirements.txt  
-
-3. Install Ollama  
+```
+4. Install Ollama
+```bash
 https://ollama.com/download/windows  
-
-4. Download model  
+```
+6. Download model
+```bash  
 ollama run phi3  
-
-5. Build vector database  
+```
+8. Build vector database  
+```bash
 python loading_document.py  
-
-6. Run chatbot  
+```
+9. Run chatbot  
+```bash
 python chatbot.py  
-
-7. Open in browser
+```
+10. Open in browser (ctrl+click on local host)
 
 
 ##  Setup Instructions
