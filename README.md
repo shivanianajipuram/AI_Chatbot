@@ -23,6 +23,7 @@ LangChain, ChromaDB, Sentence Transformers, Ollama (Phi-3), Gradio
 Phi-3 (via Ollama), fully local inference, no API dependency
 
 ## Project Structure
+```bash 
 AI_ChatBot_RAG/
 ├── chatbot.py
 ├── loading_document.py
@@ -30,7 +31,7 @@ AI_ChatBot_RAG/
 ├── chroma_db/
 └── data/
     └── sample.pdf
-
+```
 ##  Setup Instructions
 ```bash
 pip install -r requirements.txt
