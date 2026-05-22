@@ -32,6 +32,31 @@ AI_ChatBot_RAG/
 └── data/
     └── sample.pdf
 ```
+
+## 🚀 Local Setup Steps
+
+1. Clone the repository  
+git clone https://github.com/your-username/AI_ChatBot_RAG.git  
+cd AI_ChatBot_RAG  
+
+2. Install dependencies  
+pip install -r requirements.txt  
+
+3. Install Ollama  
+https://ollama.com/download/windows  
+
+4. Download model  
+ollama run phi3  
+
+5. Build vector database  
+python loading_document.py  
+
+6. Run chatbot  
+python chatbot.py  
+
+7. Open in browser
+
+
 ##  Setup Instructions
 ```bash
 pip install -r requirements.txt
@@ -84,11 +109,23 @@ git push -u origin main
 ```bash
 git pull origin main 
 ```
+## ⚠️ Deployment Note
 
-## LIVE DEMO
-```bash
+This project uses **Ollama (Phi-3 local LLM)** for inference.
 
-```
+👉 Ollama is a **local model server**, not a cloud API.  
+👉 It runs completely on your machine and does NOT require internet or API keys.  
+
+Because of this, this project is designed for **local deployment only**.
+
+Cloud platforms like Render, Vercel, or HuggingFace Spaces will NOT work directly unless the LLM is replaced with a cloud API.
+
+---
+
+## 🖥️ Recommended Setup
+
+This project is intended to run locally for best performance and privacy.
+
 
 ## Outcome
 Shows RAG architecture, vector DB usage, local LLM integration, and full AI system design.
