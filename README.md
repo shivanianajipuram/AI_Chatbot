@@ -129,3 +129,23 @@ This project is intended to run locally for best performance and privacy.
 
 ## Outcome
 Shows RAG architecture, vector DB usage, local LLM integration, and full AI system design.
+
+
+
+Outputs:
+
+<img width="992" height="631" alt="output1" src="https://github.com/user-attachments/assets/397a06c2-9645-4d50-967f-2d9b480de050" />
+
+
+<img width="1004" height="515" alt="output2" src="https://github.com/user-attachments/assets/b86a0af3-1106-46fb-9cc8-3119975d45a4" />
+
+
+<img width="995" height="627" alt="output3" src="https://github.com/user-attachments/assets/8d97c494-a35a-4448-8410-b22244fa9857" />
+
+
+<img width="1016" height="622" alt="output4" src="https://github.com/user-attachments/assets/fc4fe665-0304-4701-8747-c090fe65c096" />
+
+
+<img width="1296" height="681" alt="output5" src="https://github.com/user-attachments/assets/9c8ad61d-2bd7-4b71-8507-9a5ed5a323e0" />
+
+
