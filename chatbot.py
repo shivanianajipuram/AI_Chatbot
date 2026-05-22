@@ -1,8 +1,8 @@
 import gradio as gr
 
+from langchain_ollama import ChatOllama
 from langchain_chroma import Chroma
 from langchain_huggingface import HuggingFaceEmbeddings
-from langchain_community.chat_models import ChatOllama
 
 # =========================
 # CONFIG
@@ -88,4 +88,4 @@ demo = gr.ChatInterface(
     description="Ask questions from your PDF"
 )
 
-demo.launch()
+demo.launch(server_name="127.0.0.1", server_port=7861)
